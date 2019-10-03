@@ -13,16 +13,16 @@ const eventSchema = new mongoose.Schema({
         type:String,
         required:true
     },
-    data: {
-        type: Data,
+    date: {
+        type: Date,
         required: true
     },
     create_at: {
-        type: Data,
+        type: Date,
         required: true
     }
 });
 
-let Event = mongoose.model('Event', eventSchema, "events2");
+let Event = mongoose.model('Event', eventSchema, "events");
 
 module.exports = Event; 

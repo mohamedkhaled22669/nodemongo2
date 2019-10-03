@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect('mongodb://localhost:27017/events2DB' ||'mongodb://username:password@host:port/database?options...',
+mongoose.connect('mongodb://localhost:27017/eventsDB' ||'mongodb://username:password@host:port/database?options...',
 {useNewUrlParser: true , useUnifiedTopology: true } , 
 (err) => {
     

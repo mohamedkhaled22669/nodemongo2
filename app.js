@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const db = require("./config/database");
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 5000;
 
 
 
@@ -19,7 +19,7 @@ app.use(express.static('node_modules'));
 
 app.get('/', (req,res)=> {
 
-    res.send('this is working');
+    res.redirect('/events');
 
 });
 

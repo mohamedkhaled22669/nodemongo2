@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect('mongodb://localhost:27017/eventsDB' ||'mongodb://username:password@host:port/database?options...',
+mongoose.connect('mongodb://localhost:27017/eventsDB' ||'mongodb://user:01140305151@ds229118.mlab.com:29118/heroku_pcbrk11v',
 {useNewUrlParser: true , useUnifiedTopology: true } , 
 (err) => {
     
